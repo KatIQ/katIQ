@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './staff-carousel.component.html',
-  styleUrl: './staff-carousel.component.css'
+  styleUrls: ['./staff-carousel.component.css']
 })
 export class StaffCarouselComponent {
   currentIndex = 0;
