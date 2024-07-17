@@ -44,7 +44,9 @@ export class StaffCarouselComponent {
   ];
 
   moveSlide(direction: number) {
+    console.log(this.teachers.length);
     const slides = this.teachers.length;
     this.currentIndex = (this.currentIndex + direction + slides) % slides;
+    console.log(this.currentIndex);
   }
 }
